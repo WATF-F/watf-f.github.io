@@ -33,7 +33,6 @@ var counrties = [
   "Бельгия",
   "Нидерланды",
   "Люксембург",
-  "Франция",
   "Испания",
   "Португалия",
   "Ирландия",
@@ -45,6 +44,7 @@ var counrties = [
   "Ватикан",
   "Лихтенштейн",
   "Монако",
+  "Дания"
 ];
 let countryies_copy = JSON.parse(JSON.stringify(counrties));
 let score = document.getElementById("score");
