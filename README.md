@@ -1,1 +1,1 @@
-# watf-f.github.io
+# settera-clone.io
