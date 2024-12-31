@@ -55,24 +55,3 @@ input {
   align-items: center;
   align-content: flex-start;
 }
-/* #input.splice {
-  position: relative;
-} */
-/* #input.splice::after {
-  content: "";
-  position: absolute;
-  width: 0px;
-  height: 0px;
-  border-radius: 50%;
-  border-radius: 1px solid red;
-}
-@keyframes identifier {
-  from {
-    width: 0px;
-    height: 0px;
-  }
-  to {
-    width: 100px;
-    height: 100px;
-  }
-} */
