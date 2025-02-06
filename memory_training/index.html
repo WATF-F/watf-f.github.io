@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="container"></div>
+      <div class="content">
+        <p id="countfalse"></p>
+        <p id="hide"></p>
+        <input
+          type="text"
+          placeholder="Введите количество элементов"
+          id="elementcount"
+          maxlength="3"
+        />
+        <input
+          type="text"
+          placeholder="Введите время на запоминание"
+          id="transitioncount"
+          maxlength="3"
+        />
+        <label for="nomemory">Без запоминания</label>
+        <input type="checkbox" name="nomemory" id="notransit" />
+        <input type="submit" id="start" value="Заново" />
+      </div>
+      <div class="time_container"><p class="time"></p></div>
+    </div>
+    <script src="js.js" type="module"></script>
+  </body>
+</html>
